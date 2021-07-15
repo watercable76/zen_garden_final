@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  font: 75% "Raleway", sans-serif;
+  font: 100% "Raleway", sans-serif;
   line-height: 1.88889;
   margin: 0;
   padding: 0;
@@ -105,7 +105,6 @@ header h1 {
 }
 
 header h2 {
-  background: transparent url(http://csszengarden.com/001/h2.gif) no-repeat top left;
   margin-top: 58px;
   margin-bottom: 40px;
   width: 200px;
@@ -206,7 +205,6 @@ footer a:visited {
 
 .sidebar .wrapper {
   font: 10px verdana, sans-serif;
-  background: transparent url(http://csszengarden.com/001/paper-bg.jpg) top left repeat-y;
   padding: 10px;
   margin-top: 150px;
   width: 130px;
@@ -255,17 +253,14 @@ footer a:visited {
   margin-bottom: 5px;
   list-style-type: none;
 }
-
 .sidebar li a:link {
-  color: #988f5e;
+  color: #1b30ac;
 }
-
 .sidebar li a:visited {
-  color: #b3ae94;
+  color: gray;
 }
 
 .extra1 {
-  background: transparent url(http://csszengarden.com/001/cr2.gif) top right no-repeat;
   position: absolute;
   top: 40px;
   left: 0;
