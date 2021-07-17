@@ -265,9 +265,13 @@ footer {
         right: auto;
         flex-direction: row;
         background-color: #b3ae94;
-        width: 50%;
+        margin-left: 20px;
+
         a {
-            padding: 16px;
+            padding: 12px;
+        }
+        a:link {
+            margin-right: 5px;
         }
     }
 }
@@ -348,7 +352,7 @@ footer {
     position: absolute;
     top: 750px;
     left: 5px;
-    width: 8%;
+    width: 150px;
     height: 0;
     padding: 0;
     padding-bottom: 125px;
