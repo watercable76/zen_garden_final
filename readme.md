@@ -23,4 +23,4 @@ and much more concise way to write advanced CSS.
 
 <p>&nbsp;</p>  
 
-Here is an article about SCSS and where to learn it: [article](url).
+Here is an article about SCSS and where to learn it: [article](https://sass-lang.com/guide).

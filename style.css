@@ -17,6 +17,47 @@
   font-weight: 400;
   src: url("https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap");
 }
+/* KeyFrames */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 /* basic elements */
 html {
   margin: 0;
@@ -129,7 +170,6 @@ header {
   clear: both;
   margin: 20px 20px 20px 10px;
 }
-
 .summary p {
   font: italic 1.1em/2.2 Georgia;
   text-align: center;
@@ -182,46 +222,6 @@ header {
   display: block;
 }
 
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@-moz-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@-o-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@-ms-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 footer {
   text-align: center;
   float: right;
@@ -240,9 +240,7 @@ footer a::before {
 footer a {
   padding: 24px 12px;
 }
-
-footer a:link,
-footer a:visited {
+footer a:link, footer a:visited {
   margin-right: 20px;
   color: black;
   border-radius: 3%;
@@ -266,43 +264,36 @@ footer a:visited {
   top: 0;
   left: 0;
 }
-
 .sidebar .wrapper {
   font: 10px verdana, sans-serif;
   padding: 15px;
   margin-top: 150px;
   width: 130px;
 }
-
 .sidebar h3 {
   font-family: "Zen Loop", cursive;
 }
-
 .sidebar h3.select {
   margin: 10px 5px 5px 0;
   width: 97px;
   height: 16px;
   white-space: nowrap;
 }
-
 .sidebar h3.archives {
   margin: 25px 5px 5px 0;
   width: 57px;
   height: 14px;
   white-space: nowrap;
 }
-
 .sidebar h3.resources {
   margin: 25px 5px 5px 0;
   width: 63px;
   height: 10px;
 }
-
 .sidebar ul {
   margin: 0;
   padding: 0;
 }
-
 .sidebar li {
   line-height: 1.3em;
   display: block;
@@ -331,7 +322,7 @@ footer a:visited {
   position: absolute;
   top: 750px;
   left: 5px;
-  width: 20%;
+  width: 8%;
   height: 0;
   padding: 0;
   padding-bottom: 125px;

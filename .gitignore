@@ -1,4 +1,3 @@
 # Ignore all files except for files used to compile the zen garden
 *.json
 *.txt
-*.scss
